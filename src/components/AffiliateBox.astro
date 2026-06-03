@@ -1,0 +1,35 @@
+---
+import afiliados_data from '../../scripts/afiliados.json';
+
+interface Props {
+  herramientas: string[];
+}
+
+const { herramientas } = Astro.props;
+
+const items = herramientas
+  .map((key) => (afiliados_data as Record<string, { nombre: string; descripcion: string; url: string; cta: string }>)[key])
+  .filter(Boolean);
+---
+
+{items.length > 0 && (
+  <div class="mt-12 border border-blue-100 rounded-2xl p-6 bg-blue-50">
+    <h2 class="text-lg font-semibold text-blue-800 mb-4">Herramientas recomendadas</h2>
+    <div class="grid gap-4 sm:grid-cols-2">
+      {items.map((item) => (
+        <a
+          href={item.url}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          class="block bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border border-gray-100"
+        >
+          <p class="font-semibold text-gray-900">{item.nombre}</p>
+          <p class="text-sm text-gray-500 mt-1">{item.descripcion}</p>
+          <span class="inline-block mt-3 text-sm font-medium text-blue-700 hover:text-blue-900">
+            {item.cta} →
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+)}

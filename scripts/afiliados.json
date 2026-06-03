@@ -1,0 +1,50 @@
+{
+  "kit": {
+    "nombre": "Kit (ex-ConvertKit)",
+    "descripcion": "La plataforma de email marketing preferida por creadores. Automatizaciones potentes y fáciles de usar.",
+    "url": "https://AFILIADO-PENDIENTE/kit",
+    "cta": "Prueba Kit gratis"
+  },
+  "writesonic": {
+    "nombre": "Writesonic",
+    "descripcion": "Redacta descripciones de propiedades optimizadas para SEO en segundos con IA.",
+    "url": "https://AFILIADO-PENDIENTE/writesonic",
+    "cta": "Probar Writesonic"
+  },
+  "frase": {
+    "nombre": "Frase",
+    "descripcion": "Crea contenido SEO basado en datos reales de búsqueda. Ideal para posicionar en Google.",
+    "url": "https://AFILIADO-PENDIENTE/frase",
+    "cta": "Ver Frase"
+  },
+  "jasper": {
+    "nombre": "Jasper",
+    "descripcion": "IA de escritura para marketing inmobiliario: fichas, anuncios, emails y más.",
+    "url": "https://AFILIADO-PENDIENTE/jasper",
+    "cta": "Probar Jasper"
+  },
+  "headshotpro": {
+    "nombre": "HeadshotPro",
+    "descripcion": "Fotos profesionales de corredor de propiedades generadas con IA. Sin sesión fotográfica.",
+    "url": "https://AFILIADO-PENDIENTE/headshotpro",
+    "cta": "Generar tu foto profesional"
+  },
+  "photoai": {
+    "nombre": "PhotoAI",
+    "descripcion": "Mejora fotos de propiedades y haz staging virtual con inteligencia artificial.",
+    "url": "https://AFILIADO-PENDIENTE/photoai",
+    "cta": "Mejorar fotos con IA"
+  },
+  "synthesia": {
+    "nombre": "Synthesia",
+    "descripcion": "Crea videos de recorridos virtuales y marketing inmobiliario con avatares de IA.",
+    "url": "https://AFILIADO-PENDIENTE/synthesia",
+    "cta": "Crear video con IA"
+  },
+  "beehiiv": {
+    "nombre": "beehiiv",
+    "descripcion": "La plataforma de newsletters más potente para crear y monetizar tu audiencia inmobiliaria.",
+    "url": "https://AFILIADO-PENDIENTE/beehiiv",
+    "cta": "Empezar newsletter"
+  }
+}

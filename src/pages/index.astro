@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout
+  title="INMOIA"
+  description="Inteligencia artificial aplicada al sector inmobiliario. Guías, herramientas y estrategias para corredores de propiedades e inmobiliarias en Chile y LatAm."
+>
+  <section class="mb-12">
+    <h1 class="text-4xl font-bold mb-4 leading-tight">
+      IA para el sector <span class="text-blue-700">inmobiliario</span>
+    </h1>
+    <p class="text-lg text-gray-600 max-w-xl">
+      Guías prácticas, comparativas de herramientas y estrategias de marketing con inteligencia artificial para corredores de propiedades e inmobiliarias.
+    </p>
+  </section>
+
+  {posts.length === 0 ? (
+    <p class="text-gray-400">Los artículos aparecerán aquí pronto.</p>
+  ) : (
+    <div class="grid gap-6 sm:grid-cols-2">
+      {posts.map((post) => (
+        <ArticleCard
+          title={post.data.title}
+          description={post.data.description}
+          slug={post.id}
+          pubDate={post.data.pubDate}
+          tags={post.data.tags}
+        />
+      ))}
+    </div>
+  )}
+</BaseLayout>
