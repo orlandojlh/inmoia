@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://inmoia.vercel.app',
+  site: 'https://inmoia-eosin.vercel.app',
   vite: {
     plugins: [tailwindcss()]
   },
