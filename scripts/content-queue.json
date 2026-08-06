@@ -176,7 +176,7 @@
     "afiliados": [
       "frase"
     ],
-    "estado": "pendiente"
+    "estado": "publicada"
   },
   {
     "keyword": "cómo calcular la plusvalía de una propiedad",
@@ -210,6 +210,96 @@
     "afiliados": [
       "kit",
       "jasper"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "cómo usar inteligencia artificial para calificar leads inmobiliarios",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "herramientas de ia para gestionar clientes en inmobiliarias",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "cómo personalizar la búsqueda de propiedades con inteligencia artificial",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "ia para detectar fraudes en transacciones inmobiliarias",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "cómo usar ia para negociar precios de propiedades",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "inteligencia artificial para gestión de contratos inmobiliarios",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "cómo segmentar compradores de propiedades con inteligencia artificial",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "ia para predecir la demanda de arriendo en chile",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "cómo automatizar respuestas a clientes inmobiliarios con ia",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
+    ],
+    "estado": "pendiente"
+  },
+  {
+    "keyword": "herramientas de inteligencia artificial para hacer home staging virtual gratis",
+    "cluster": "F",
+    "afiliados": [
+      "writesonic",
+      "frase"
     ],
     "estado": "pendiente"
   }
