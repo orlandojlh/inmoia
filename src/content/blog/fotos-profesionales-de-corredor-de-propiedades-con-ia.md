@@ -18,6 +18,14 @@ La inteligencia artificial cambió las reglas del juego. Hoy puedes obtener foto
 
 ## Por Qué la Foto de Perfil de un Corredor Es una Herramienta de Ventas
 
+<div class="mi-destacada" data-nombre="HeadshotPro"
+  data-descripcion="Genera fotos profesionales de corredor con IA. Sin fotógrafo, sin sesión."
+  data-url="https://www.headshotpro.com?via=inmoia"
+  data-cta="Generar mi foto profesional"
+  data-precio="$29/mes"
+  data-badge="Recomendado por INMOIA">
+</div>
+
 No es vanidad. Es estrategia comercial.
 
 Un corredor de propiedades construye su negocio sobre la confianza. Los clientes te entregan decisiones de millones de pesos: vender su casa familiar, invertir sus ahorros o arrendar su único activo. Antes de hacer eso, te buscan en Instagram, en LinkedIn, en portales como Portalinmobiliario o TocToc.

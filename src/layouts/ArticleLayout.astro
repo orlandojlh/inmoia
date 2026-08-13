@@ -82,6 +82,31 @@ const jsonLd = {
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
 
   <script>
+    // Hidrata los placeholders <div class="mi-destacada" data-*> insertados en el
+    // markdown de los artículos con el mismo markup/estilos que HerramientaDestacada.astro,
+    // ya que los archivos .md no pueden invocar componentes .astro directamente.
+    document.querySelectorAll('.mi-destacada[data-nombre]').forEach((el) => {
+      const nombre = el.getAttribute('data-nombre') ?? '';
+      const descripcion = el.getAttribute('data-descripcion') ?? '';
+      const url = el.getAttribute('data-url') ?? '#';
+      const cta = el.getAttribute('data-cta') ?? 'Ver más';
+      const precio = el.getAttribute('data-precio') ?? '';
+      const badge = el.getAttribute('data-badge') ?? '';
+
+      el.className = 'my-8 border-2 border-blue-200 rounded-2xl p-6 bg-gradient-to-r from-blue-50 to-white flex flex-col sm:flex-row gap-4 items-start';
+      el.innerHTML = `
+        <div class="flex-1">
+          ${badge ? `<span class="text-xs font-bold uppercase tracking-wide text-blue-600 bg-blue-100 px-2 py-1 rounded-full mb-2 inline-block">${badge}</span>` : ''}
+          <h3 class="text-lg font-bold text-gray-900 mb-1">${nombre}</h3>
+          <p class="text-sm text-gray-600 mb-2">${descripcion}</p>
+          <p class="text-xs text-gray-400">Desde ${precio}</p>
+        </div>
+        <div class="shrink-0">
+          <a href="${url}" target="_blank" rel="noopener sponsored" class="inline-block bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl hover:bg-blue-800 transition-colors text-sm">${cta} →</a>
+        </div>
+      `;
+    });
+
     const headings = document.querySelectorAll('article h2');
     if (headings.length > 2) {
       const toc = document.createElement('div');

@@ -18,6 +18,15 @@ Esta guía explica cómo funciona la IA aplicada a la tasación, qué herramient
 
 ## Cómo Funciona la IA en la Tasación de Propiedades
 
+<div class="mi-destacada"
+  data-nombre="Frase"
+  data-descripcion="Crea informes de tasación y contenido SEO basado en datos reales de búsqueda."
+  data-url="https://www.frase.io/?via=inmoia69"
+  data-cta="Probar Frase gratis"
+  data-precio="$14.99/mes"
+  data-badge="30 días de garantía">
+</div>
+
 Los sistemas de tasación con inteligencia artificial utilizan modelos estadísticos y de machine learning para analizar grandes volúmenes de datos y predecir el valor de mercado de una propiedad. El proceso, a grandes rasgos, funciona así:
 
 1. **Recopilación de datos**: el modelo ingiere información de transacciones pasadas, precios publicados, características del inmueble (metros cuadrados, número de dormitorios, antigüedad, estado de conservación), datos del entorno (cercanía a colegios, transporte, comercio) y variables macroeconómicas.

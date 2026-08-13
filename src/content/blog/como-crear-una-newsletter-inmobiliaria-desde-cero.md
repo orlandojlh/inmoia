@@ -18,6 +18,15 @@ El problema es que la mayoría de los corredores lanza una newsletter, envía do
 
 ## 1. Define el propósito antes de elegir cualquier herramienta
 
+<div class="mi-destacada"
+  data-nombre="beehiiv"
+  data-descripcion="La plataforma de newsletters más potente para inmobiliarias. Plan gratuito hasta 2.500 suscriptores."
+  data-url="https://www.beehiiv.com/?via=orlando-lopez"
+  data-cta="Crear mi newsletter gratis"
+  data-precio="$0/mes (plan gratuito)"
+  data-badge="Plan gratuito disponible">
+</div>
+
 Una newsletter inmobiliaria puede cumplir distintos objetivos, y mezclarlos todos en un mismo envío es el error más común.
 
 Antes de escribir tu primer correo, responde estas tres preguntas:
