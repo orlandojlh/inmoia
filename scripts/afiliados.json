@@ -15,7 +15,8 @@
     "nombre": "Frase",
     "descripcion": "Crea contenido SEO basado en datos reales de búsqueda. Ideal para posicionar en Google.",
     "url": "https://www.frase.io/?utm_source=firstpromoter&utm_medium=affiliate&utm_campaign=affiliate_program&via=inmoia69",
-    "cta": "Ver Frase"
+    "cta": "Ver Frase",
+    "precio": "$14.99/mes"
   },
   "jasper": {
     "nombre": "Jasper",
@@ -27,7 +28,8 @@
     "nombre": "HeadshotPro",
     "descripcion": "Fotos profesionales de corredor de propiedades generadas con IA. Sin sesión fotográfica.",
     "url": "https://www.headshotpro.com?via=inmoia",
-    "cta": "Generar tu foto profesional"
+    "cta": "Generar tu foto profesional",
+    "precio": "$29/mes"
   },
   "photoai": {
     "nombre": "PhotoAI",
@@ -45,6 +47,7 @@
     "nombre": "beehiiv",
     "descripcion": "La plataforma de newsletters más potente para crear y monetizar tu audiencia inmobiliaria.",
     "url": "https://www.beehiiv.com/?via=orlando-lopez",
-    "cta": "Empezar newsletter"
+    "cta": "Empezar newsletter",
+    "precio": "$0/mes (plan gratuito)"
   }
 }

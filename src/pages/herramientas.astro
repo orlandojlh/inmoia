@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import afiliadosData from '../../scripts/afiliados.json';
+
+interface Herramienta {
+  nombre: string;
+  descripcion: string;
+  url: string;
+  cta: string;
+  precio?: string;
+}
+
+const herramientas = Object.values(afiliadosData as Record<string, Herramienta>);
+const disponibles = herramientas.filter((h) => !h.url.includes('AFILIADO-PENDIENTE'));
+const proximamente = herramientas.filter((h) => h.url.includes('AFILIADO-PENDIENTE'));
+
+const title = 'Herramientas de IA Inmobiliarias en Chile';
+const description = 'Comparativa de las mejores herramientas de inteligencia artificial para corredores e inmobiliarias en Chile: redacción, fotos, tasación y email marketing.';
+---
+
+<BaseLayout title={title} description={description}>
+  <header class="mb-10">
+    <h1 class="text-3xl font-bold leading-tight mb-3">Herramientas de IA para Inmobiliarias en Chile</h1>
+    <p class="text-gray-600">
+      Selección de herramientas de inteligencia artificial que usamos y recomendamos para corredores
+      e inmobiliarias en Chile y Latinoamérica: redacción de fichas, fotos profesionales, tasación,
+      video y email marketing.
+    </p>
+  </header>
+
+  <section class="grid gap-6 sm:grid-cols-2">
+    {disponibles.map((h) => (
+      <div class="border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+        <h2 class="text-lg font-bold text-gray-900 mb-1">{h.nombre}</h2>
+        <p class="text-sm text-gray-600 mb-3 flex-1">{h.descripcion}</p>
+        {h.precio && <p class="text-xs text-gray-400 mb-3">Desde {h.precio}</p>}
+        <a href={h.url} target="_blank" rel="noopener sponsored"
+           class="inline-block text-center bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl hover:bg-blue-800 transition-colors text-sm">
+          {h.cta} →
+        </a>
+      </div>
+    ))}
+  </section>
+
+  {proximamente.length > 0 && (
+    <section class="mt-12">
+      <h2 class="text-lg font-semibold text-gray-900 mb-4">Próximamente</h2>
+      <div class="grid gap-4 sm:grid-cols-2">
+        {proximamente.map((h) => (
+          <div class="border border-gray-100 rounded-2xl p-6 bg-gray-50 flex flex-col opacity-70">
+            <h3 class="text-base font-bold text-gray-700 mb-1">{h.nombre}</h3>
+            <p class="text-sm text-gray-500 mb-3 flex-1">{h.descripcion}</p>
+            <span class="inline-block text-center bg-gray-200 text-gray-500 font-semibold px-5 py-3 rounded-xl text-sm cursor-not-allowed">
+              Próximamente
+            </span>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <p class="mt-12 text-xs text-gray-400 text-center">
+    Algunos enlaces son de afiliado. Si compras a través de ellos, recibimos una comisión sin costo adicional para ti.
+  </p>
+</BaseLayout>
