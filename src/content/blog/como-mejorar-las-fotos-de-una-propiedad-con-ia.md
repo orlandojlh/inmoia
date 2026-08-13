@@ -5,7 +5,7 @@ pubDate: 2026-06-25
 tags: ["Cómo", "IA inmobiliaria"]
 keyword: "cómo mejorar las fotos de una propiedad con ia"
 draft: false
-afiliados: ["photoai"]
+afiliados: ["virtualstagingai"]
 ---
 
 # Cómo Mejorar las Fotos de una Propiedad con IA: Guía Práctica para Corredores e Inmobiliarias
@@ -54,7 +54,7 @@ Si las fotos fueron tomadas con un teléfono de gama media o en condiciones de b
 
 ## Cómo Usar Photo AI para Transformar tus Imágenes Inmobiliarias
 
-Una de las herramientas más completas del mercado para este propósito es [PhotoAI](https://AFILIADO-PENDIENTE/photoai). Está diseñada específicamente para optimizar imágenes con inteligencia artificial, con flujos de trabajo pensados para quienes no tienen formación en diseño gráfico.
+Una de las herramientas más completas del mercado para este propósito es [VirtualStagingAI](https://www.virtualstagingai.app/?via=inmoia). Está diseñada específicamente para optimizar imágenes con inteligencia artificial, con flujos de trabajo pensados para quienes no tienen formación en diseño gráfico.
 
 **Flujo de trabajo práctico para un corredor:**
 
@@ -103,7 +103,7 @@ Una buena práctica es incluir un pie de foto como: *"Imágenes con amoblado de 
 
 ### ¿Se necesitan conocimientos técnicos de fotografía o diseño para usar herramientas de IA?
 
-No. Herramientas como [PhotoAI](https://AFILIADO-PENDIENTE/photoai) están diseñadas para usuarios sin formación técnica. El proceso es completamente visual e intuitivo: subes la imagen, seleccionas el tipo de mejora y descargas el resultado. En la mayoría de los casos no hay que configurar parámetros manuales.
+No. Herramientas como [VirtualStagingAI](https://www.virtualstagingai.app/?via=inmoia) están diseñadas para usuarios sin formación técnica. El proceso es completamente visual e intuitivo: subes la imagen, seleccionas el tipo de mejora y descargas el resultado. En la mayoría de los casos no hay que configurar parámetros manuales.
 
 ### ¿El virtual staging con IA se ve artificial o poco realista?
 

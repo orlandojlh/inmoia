@@ -49,5 +49,12 @@
     "url": "https://www.beehiiv.com/?via=orlando-lopez",
     "cta": "Empezar newsletter",
     "precio": "$0/mes (plan gratuito)"
+  },
+  "virtualstagingai": {
+    "nombre": "VirtualStagingAI",
+    "descripcion": "Staging virtual con IA: amuebla y decora propiedades vacías en minutos, sin fotógrafo ni diseñador.",
+    "url": "https://www.virtualstagingai.app/?via=inmoia",
+    "cta": "Probar VirtualStagingAI",
+    "precio": "$1 por imagen"
   }
 }
