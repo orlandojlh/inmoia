@@ -7,24 +7,39 @@ interface Props {
 
 const { herramientas } = Astro.props;
 
-const items = herramientas
-  .map((key) => (afiliados_data as Record<string, { nombre: string; descripcion: string; url: string; cta: string }>)[key])
-  .filter(Boolean);
+type Afiliado = { nombre: string; descripcion: string; url: string; cta: string; precio?: string };
+const data = afiliados_data as Record<string, Afiliado>;
+
+const esPendiente = (item?: Afiliado) => !item || item.url.includes('AFILIADO-PENDIENTE');
+
+let items = herramientas
+  .map((key) => data[key])
+  .filter((item): item is Afiliado => Boolean(item) && !esPendiente(item));
+
+if (items.length === 0 && data.frase && !esPendiente(data.frase)) {
+  items = [data.frase];
+}
 ---
 
 {items.length > 0 && (
   <div class="mt-12 border border-blue-100 rounded-2xl p-6 bg-blue-50">
     <h2 class="text-lg font-semibold text-blue-800 mb-4">Herramientas recomendadas</h2>
     <div class="grid gap-4 sm:grid-cols-2">
-      {items.map((item) => (
+      {items.map((item, i) => (
         <a
           href={item.url}
           target="_blank"
           rel="noopener noreferrer sponsored"
-          class="block bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border border-gray-100"
+          class="block bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border border-gray-100 relative"
         >
+          {i === 0 && items.length > 1 && (
+            <span class="absolute -top-2 -right-2 text-[10px] font-bold uppercase tracking-wide text-blue-700 bg-blue-100 px-2 py-0.5 rounded-full">
+              Recomendado
+            </span>
+          )}
           <p class="font-semibold text-gray-900">{item.nombre}</p>
           <p class="text-sm text-gray-500 mt-1">{item.descripcion}</p>
+          {item.precio && <p class="text-xs text-gray-400 mt-1">Desde {item.precio}</p>}
           <span class="inline-block mt-3 text-sm font-medium text-blue-700 hover:text-blue-900">
             {item.cta} →
           </span>
