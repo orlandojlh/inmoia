@@ -1,0 +1,40 @@
+---
+interface Props {
+  herramientas: {
+    nombre: string;
+    precio: string;
+    idioma: string;
+    prueba: string;
+    mejor_para: string;
+    url: string;
+  }[];
+}
+const { herramientas } = Astro.props;
+---
+<div class="overflow-x-auto my-8">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-blue-700 text-white">
+        <th class="p-3 text-left">Herramienta</th>
+        <th class="p-3 text-left">Precio base</th>
+        <th class="p-3 text-left">Español</th>
+        <th class="p-3 text-left">Prueba gratis</th>
+        <th class="p-3 text-left">Ideal para</th>
+      </tr>
+    </thead>
+    <tbody>
+      {herramientas.map((h, i) => (
+        <tr class={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+          <td class="p-3 font-semibold">
+            <a href={h.url} target="_blank" rel="noopener sponsored"
+               class="text-blue-700 hover:underline">{h.nombre}</a>
+          </td>
+          <td class="p-3">{h.precio}</td>
+          <td class="p-3">{h.idioma}</td>
+          <td class="p-3">{h.prueba}</td>
+          <td class="p-3">{h.mejor_para}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

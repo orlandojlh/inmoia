@@ -1,14 +1,24 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import AffiliateBox from '../components/AffiliateBox.astro';
+import ArticleCard from '../components/ArticleCard.astro';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   post: CollectionEntry<'blog'>;
+  allPosts?: CollectionEntry<'blog'>[];
 }
 
-const { post } = Astro.props;
+const { post, allPosts = [] } = Astro.props;
 const { title, description, pubDate, tags, keyword, afiliados } = post.data;
+
+const wordCount = post.body ? post.body.trim().split(/\s+/).filter(Boolean).length : 0;
+const readingTime = Math.max(1, Math.ceil(wordCount / 200));
+
+const relatedPosts = allPosts
+  .filter((p) => p.id !== post.id)
+  .filter((p) => p.data.tags.some((tag) => tags.includes(tag)))
+  .slice(0, 3);
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -35,9 +45,12 @@ const jsonLd = {
         ))}
       </div>
       <h1 class="text-3xl font-bold leading-tight mb-3">{title}</h1>
-      <time class="text-sm text-gray-500" datetime={pubDate.toISOString()}>
-        {pubDate.toLocaleDateString('es-CL', { year: 'numeric', month: 'long', day: 'numeric' })}
-      </time>
+      <p class="text-sm text-gray-500">
+        <time datetime={pubDate.toISOString()}>
+          {pubDate.toLocaleDateString('es-CL', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+        {' '}· {readingTime} min de lectura
+      </p>
     </header>
 
     <div class="prose prose-blue max-w-none">
@@ -49,5 +62,42 @@ const jsonLd = {
     )}
   </article>
 
+  {relatedPosts.length > 0 && (
+    <section class="mt-12">
+      <h2 class="text-lg font-semibold text-gray-900 mb-4">También te puede interesar</h2>
+      <div class="grid gap-4 sm:grid-cols-3">
+        {relatedPosts.map((related) => (
+          <ArticleCard
+            title={related.data.title}
+            description={related.data.description}
+            slug={related.id}
+            pubDate={related.data.pubDate}
+            tags={related.data.tags}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <script>
+    const headings = document.querySelectorAll('article h2');
+    if (headings.length > 2) {
+      const toc = document.createElement('div');
+      toc.className = 'toc my-6 p-4 bg-gray-50 rounded-xl border border-gray-200';
+      toc.innerHTML = '<p class="text-sm font-semibold text-gray-700 mb-2">En este artículo</p><ul class="space-y-1">' +
+        Array.from(headings).map((h) => {
+          const id = (h.textContent ?? '').toLowerCase()
+            .replace(/[áàä]/g, 'a').replace(/[éèë]/g, 'e')
+            .replace(/[íìï]/g, 'i').replace(/[óòö]/g, 'o')
+            .replace(/[úùü]/g, 'u').replace(/ñ/g, 'n')
+            .replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, '-');
+          h.id = id;
+          return `<li><a href="#${id}" class="text-sm text-blue-700 hover:underline">${h.textContent}</a></li>`;
+        }).join('') + '</ul>';
+      const prose = document.querySelector('.prose');
+      if (prose) prose.insertBefore(toc, prose.firstChild);
+    }
+  </script>
 </BaseLayout>

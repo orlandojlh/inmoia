@@ -40,6 +40,21 @@ Requisitos obligatorios:
 - Herramientas a recomendar en este artículo: {LISTA_AFILIADOS}.
 - No uses la primera persona del plural de forma genérica. Escribe para el lector ("tú").
 - No incluyas frontmatter; solo el cuerpo en Markdown empezando por el H1.
+- Incluye un caso de uso CONCRETO con números chilenos (ej: "Una inmobiliaria en
+  Providencia que adoptó [herramienta] redujo su tiempo de redacción de 45 minutos
+  a 8 minutos por propiedad"). Usa comunas o ciudades reales de Chile y cifras
+  verosímiles, dejando claro que es un ejemplo ilustrativo, no un caso documentado.
+- Incluye una sección H2 titulada "¿Vale la pena el costo?" con un cálculo de ROI
+  simple y explícito: si la herramienta cuesta $X al mes y ahorra Y horas a $Z la
+  hora, el ahorro neto mensual es de tanto.
+- Incluye una advertencia honesta sobre qué NO puede hacer la herramienta (limitaciones
+  reales, no genéricas): no reemplaza criterio humano, no conoce el mercado local,
+  requiere revisión antes de publicar, etc.
+- Incluye al menos 1 dato estadístico sobre el mercado inmobiliario chileno o
+  latinoamericano (adopción de tecnología, tiempos de venta, digitalización del
+  sector, etc.). Si no tienes una cifra verificable, usa una estimación de rango
+  razonable y acláralo como tal (ej: "estudios del sector estiman que..."), sin
+  presentarla como un dato oficial inventado.
 
 Devuelve SOLO el Markdown del artículo, sin comentarios ni explicaciones."""
 
@@ -90,8 +105,28 @@ def extract_first_paragraph(markdown: str) -> str:
         if in_content and line.strip() and not line.startswith("#"):
             clean = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line)
             clean = re.sub(r"\*+([^*]+)\*+", r"\1", clean)
-            return clean.strip()[:160]
+            return _truncate_meta_description(clean.strip(), 155)
     return ""
+
+
+def _truncate_meta_description(text: str, max_len: int) -> str:
+    """Cut at a sentence boundary when possible; otherwise at the last full word.
+    Never cuts mid-word and always ends in a period."""
+    if len(text) <= max_len:
+        return text
+
+    truncated = text[:max_len]
+
+    last_period = truncated.rfind(". ")
+    if last_period == -1 and truncated.rstrip().endswith("."):
+        last_period = len(truncated.rstrip()) - 1
+    if last_period > max_len * 0.4:
+        return truncated[:last_period + 1].strip()
+
+    last_space = truncated.rfind(" ")
+    if last_space != -1:
+        truncated = truncated[:last_space]
+    return truncated.rstrip(",;:- ") + "."
 
 
 def resolve_afiliado_markers(markdown: str, afiliados_data: dict, afiliados_keys: list) -> str:
