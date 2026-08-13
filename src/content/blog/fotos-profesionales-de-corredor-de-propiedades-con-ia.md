@@ -60,7 +60,7 @@ Las herramientas actuales de IA para headshots funcionan mediante modelos de dif
 
 El resultado no es un avatar ni una ilustración. Es una fotografía hiperrealista de ti, estilizada con criterios de fotografía profesional.
 
-Para este proceso, [HeadshotPro](https://AFILIADO-PENDIENTE/headshotpro) es una de las referencias más sólidas del mercado: genera headshots de estudio a partir de tus fotos personales, con opciones de personalización de fondo y vestimenta, y resultados en cuestión de horas.
+Para este proceso, [HeadshotPro](https://www.headshotpro.com?via=inmoia) es una de las referencias más sólidas del mercado: genera headshots de estudio a partir de tus fotos personales, con opciones de personalización de fondo y vestimenta, y resultados en cuestión de horas.
 
 ---
 
@@ -70,7 +70,7 @@ Para este proceso, [HeadshotPro](https://AFILIADO-PENDIENTE/headshotpro) es una 
 
 LinkedIn es el canal donde los clientes corporativos, los inversionistas y los colegas del sector te buscan. Una foto desactualizada o informal puede costarte una conexión valiosa antes de que intercambies una sola palabra.
 
-Con herramientas de IA como [HeadshotPro](https://AFILIADO-PENDIENTE/headshotpro), puedes generar una foto específicamente optimizada para el formato circular de LinkedIn, con fondo neutro y buena iluminación frontal.
+Con herramientas de IA como [HeadshotPro](https://www.headshotpro.com?via=inmoia), puedes generar una foto específicamente optimizada para el formato circular de LinkedIn, con fondo neutro y buena iluminación frontal.
 
 ### Portales inmobiliarios
 
@@ -104,7 +104,7 @@ Usar IA no garantiza resultados automáticamente buenos. Estos son los errores q
 
 Una sesión fotográfica profesional con estudio y fotógrafo en Santiago puede costar entre $80.000 y $250.000 pesos chilenos, más tiempo de coordinación y edición.
 
-Las herramientas de IA como [HeadshotPro](https://AFILIADO-PENDIENTE/headshotpro) tienen modelos de pago por uso o suscripción que resultan significativamente más económicos. El tiempo de procesamiento oscila entre una y cuatro horas desde que subes tus fotos hasta que recibes el resultado final.
+Las herramientas de IA como [HeadshotPro](https://www.headshotpro.com?via=inmoia) tienen modelos de pago por uso o suscripción que resultan significativamente más económicos. El tiempo de procesamiento oscila entre una y cuatro horas desde que subes tus fotos hasta que recibes el resultado final.
 
 Para un corredor independiente que necesita actualizar su imagen o para una inmobiliaria que incorpora agentes nuevos, el cálculo es simple: menor costo, mayor velocidad, mayor flexibilidad.
 
@@ -122,7 +122,7 @@ Sí. La IA no inventa un rostro ficticio: genera una versión mejorada fotográf
 
 ### ¿Puedo usar fotos de IA para todos mis canales o solo para algunos?
 
-Puedes usarlas en todos tus canales: LinkedIn, portales inmobiliarios, tarjetas de presentación, firma de correo, sitio web personal, brochures y redes sociales. Las imágenes generadas por herramientas como [HeadshotPro](https://AFILIADO-PENDIENTE/headshotpro) se entregan en alta resolución, lo que las hace aptas para cualquier formato digital o impreso.
+Puedes usarlas en todos tus canales: LinkedIn, portales inmobiliarios, tarjetas de presentación, firma de correo, sitio web personal, brochures y redes sociales. Las imágenes generadas por herramientas como [HeadshotPro](https://www.headshotpro.com?via=inmoia) se entregan en alta resolución, lo que las hace aptas para cualquier formato digital o impreso.
 
 ### ¿Con qué frecuencia debería actualizar mi foto profesional?
 

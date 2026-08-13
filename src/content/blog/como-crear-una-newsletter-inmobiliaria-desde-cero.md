@@ -51,7 +51,7 @@ Migrar de plataforma cuando ya tienes mil suscriptores es un proceso tedioso. Va
 
 Para newsletters inmobiliarias, dos opciones destacan por encima del resto:
 
-**[beehiiv](https://AFILIADO-PENDIENTE/beehiiv)** es la plataforma preferida si tu objetivo es hacer crecer la newsletter como un activo de contenido. Tiene herramientas de crecimiento integradas (como un sistema de referidos), analítica detallada y permite monetizar tu lista si en algún momento quieres vender publicidad a desarrolladoras o proveedores del sector. Su interfaz es limpia y el plan gratuito permite hasta 2.500 suscriptores.
+**[beehiiv](https://www.beehiiv.com/?via=orlando-lopez)** es la plataforma preferida si tu objetivo es hacer crecer la newsletter como un activo de contenido. Tiene herramientas de crecimiento integradas (como un sistema de referidos), analítica detallada y permite monetizar tu lista si en algún momento quieres vender publicidad a desarrolladoras o proveedores del sector. Su interfaz es limpia y el plan gratuito permite hasta 2.500 suscriptores.
 
 **[Kit (ex-ConvertKit)](https://AFILIADO-PENDIENTE/kit)** (antes ConvertKit) es ideal si necesitas automatizaciones más complejas: secuencias de bienvenida, segmentación por comportamiento, integración con tu CRM. Si una persona descarga tu guía de tasación, Kit puede enviarle automáticamente una serie de tres correos orientados a propietarios que quieren vender. Para corredores que trabajan con embudos de captación, esta funcionalidad marca una diferencia real.
 
@@ -130,7 +130,7 @@ Una vez que tu newsletter tiene estructura y regularidad, el siguiente paso es l
 
 **Reactivación:** Cada tres meses, identifica suscriptores que no han abierto ningún correo en ese período. Envíales un correo de reactivación: *"¿Sigues interesado en el mercado inmobiliario de [ciudad]? Si no es así, no te enviamos más correos."* Esto limpia tu lista y mejora tu tasa de apertura general.
 
-Plataformas como [Kit (ex-ConvertKit)](https://AFILIADO-PENDIENTE/kit) o [beehiiv](https://AFILIADO-PENDIENTE/beehiiv) permiten configurar estas automatizaciones sin necesidad de conocimientos técnicos avanzados.
+Plataformas como [Kit (ex-ConvertKit)](https://AFILIADO-PENDIENTE/kit) o [beehiiv](https://www.beehiiv.com/?via=orlando-lopez) permiten configurar estas automatizaciones sin necesidad de conocimientos técnicos avanzados.
 
 ---
 
@@ -150,4 +150,4 @@ Sí, y es una práctica cada vez más común. La IA puede ayudarte a estructurar
 
 ### ¿Es obligatorio tener un sitio web para crear una newsletter inmobiliaria?
 
-No es obligatorio, pero sí recomendable. Puedes empezar con solo una página de suscripción creada directamente en [beehiiv](https://AFILIADO-PENDIENTE/beehiiv) o [Kit (ex-ConvertKit)](https://AFILIADO-PENDIENTE/kit) sin necesidad de un sitio completo. Sin embargo, tener un dominio propio para el correo remitente (por ejemplo, hola@tuinmobiliaria.cl en lugar de gmail.com) mejora significativamente la credibilidad y la entregabilidad de tus envíos.
+No es obligatorio, pero sí recomendable. Puedes empezar con solo una página de suscripción creada directamente en [beehiiv](https://www.beehiiv.com/?via=orlando-lopez) o [Kit (ex-ConvertKit)](https://AFILIADO-PENDIENTE/kit) sin necesidad de un sitio completo. Sin embargo, tener un dominio propio para el correo remitente (por ejemplo, hola@tuinmobiliaria.cl en lugar de gmail.com) mejora significativamente la credibilidad y la entregabilidad de tus envíos.
