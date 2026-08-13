@@ -80,10 +80,38 @@ const faqJsonLd = faqItems.length > 0 ? {
     },
   })),
 } : null;
+
+const siteURL = Astro.site?.href ?? 'https://inmoia-eosin.vercel.app/';
+const pageURL = new URL(post.id + '/', siteURL).href;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Inicio',
+      item: siteURL,
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: title,
+      item: pageURL,
+    },
+  ],
+};
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} ogType="article">
   <article>
+    <nav aria-label="breadcrumb" class="text-sm text-gray-500 mb-4">
+      <a href="/" class="hover:text-blue-700">Inicio</a>
+      <span class="mx-1">›</span>
+      <span class="text-gray-700" aria-current="page">{title}</span>
+    </nav>
+
     <header class="mb-8">
       <div class="flex gap-2 flex-wrap mb-3">
         {tags.map((tag) => (
@@ -126,6 +154,8 @@ const faqJsonLd = faqItems.length > 0 ? {
   )}
 
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 
   {faqJsonLd && (
     <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://inmoia-eosin.vercel.app/sitemap-index.xml

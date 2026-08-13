@@ -6,6 +6,7 @@ interface Props {
   description: string;
   canonicalURL?: string;
   ogImage?: string;
+  ogType?: 'website' | 'article';
 }
 
 const {
@@ -13,10 +14,12 @@ const {
   description,
   canonicalURL = Astro.url.href,
   ogImage = '/og-default.jpg',
+  ogType = 'website',
 } = Astro.props;
 
 const siteName = 'INMOIA';
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
+const ogImageURL = new URL(ogImage, Astro.site ?? Astro.url.origin).href;
 ---
 
 <!doctype html>
@@ -30,19 +33,19 @@ const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
     <link rel="canonical" href={canonicalURL} />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:site_name" content={siteName} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={ogImageURL} />
     <meta property="og:locale" content="es_CL" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image" content={ogImageURL} />
 
     <!-- Sitemap -->
     <link rel="sitemap" href="/sitemap-index.xml" />

@@ -55,6 +55,14 @@ Requisitos obligatorios:
   sector, etc.). Si no tienes una cifra verificable, usa una estimación de rango
   razonable y acláralo como tal (ej: "estudios del sector estiman que..."), sin
   presentarla como un dato oficial inventado.
+- Enlaza de forma NATURAL (dentro de una frase, nunca como lista aparte) a 2-3 de
+  los siguientes artículos ya publicados en el sitio, solo cuando el tema sea
+  realmente relevante para lo que estás explicando en ese punto. Usa markdown
+  estándar con ruta relativa exacta: [texto del enlace](/slug-del-articulo). Nunca
+  inventes una ruta que no esté en esta lista, y si ninguno encaja de forma natural,
+  no fuerces el enlace.
+  Artículos disponibles para enlazar internamente:
+  {LISTA_ARTICULOS_EXISTENTES}
 
 Devuelve SOLO el Markdown del artículo, sin comentarios ni explicaciones."""
 
@@ -129,6 +137,22 @@ def _truncate_meta_description(text: str, max_len: int) -> str:
     return truncated.rstrip(",;:- ") + "."
 
 
+def get_published_articles(queue: list, exclude_keyword: str, limit: int = 20) -> list[dict]:
+    """Artículos ya publicados disponibles para enlazado interno, excluyendo el actual."""
+    published = [
+        {"keyword": item["keyword"], "slug": keyword_to_slug(item["keyword"])}
+        for item in queue
+        if item["estado"] == "publicada" and item["keyword"] != exclude_keyword
+    ]
+    return published[-limit:]
+
+
+def format_articulos_existentes(published_articles: list) -> str:
+    if not published_articles:
+        return "(ninguno todavía; no incluyas enlaces internos en este artículo)"
+    return "\n".join(f"- [{a['keyword']}](/{a['slug']})" for a in published_articles)
+
+
 def resolve_afiliado_markers(markdown: str, afiliados_data: dict, afiliados_keys: list) -> str:
     """Replace [[AFILIADO:key]] markers with inline links."""
     def replacer(match):
@@ -140,7 +164,7 @@ def resolve_afiliado_markers(markdown: str, afiliados_data: dict, afiliados_keys
     return re.sub(r"\[\[AFILIADO:([^\]]+)\]\]", replacer, markdown)
 
 
-def generate_article(keyword: str, afiliados_keys: list) -> str:
+def generate_article(keyword: str, afiliados_keys: list, published_articles: list | None = None) -> str:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         print("ERROR: ANTHROPIC_API_KEY no encontrada en el entorno.", file=sys.stderr)
@@ -148,8 +172,14 @@ def generate_article(keyword: str, afiliados_keys: list) -> str:
 
     client = anthropic.Anthropic(api_key=api_key)
     lista_afiliados = ", ".join(afiliados_keys) if afiliados_keys else "ninguna"
+    lista_articulos_existentes = format_articulos_existentes(published_articles or [])
 
-    prompt = PROMPT_MAESTRO.replace("{KEYWORD}", keyword).replace("{LISTA_AFILIADOS}", lista_afiliados)
+    prompt = (
+        PROMPT_MAESTRO
+        .replace("{KEYWORD}", keyword)
+        .replace("{LISTA_AFILIADOS}", lista_afiliados)
+        .replace("{LISTA_ARTICULOS_EXISTENTES}", lista_articulos_existentes)
+    )
 
     message = client.messages.create(
         model="claude-sonnet-4-6",
@@ -248,9 +278,11 @@ def main():
     item = pending[0]
     keyword = item["keyword"]
     afiliados_keys = item.get("afiliados", [])
+    published_articles = get_published_articles(queue, exclude_keyword=keyword)
 
     print(f"Generando artículo para: {keyword}")
-    markdown = generate_article(keyword, afiliados_keys)
+    print(f"Artículos disponibles para enlazado interno: {len(published_articles)}")
+    markdown = generate_article(keyword, afiliados_keys, published_articles)
     markdown = resolve_afiliado_markers(markdown, afiliados_data, afiliados_keys)
 
     title = extract_title(markdown) or keyword.capitalize()
