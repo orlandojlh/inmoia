@@ -162,6 +162,45 @@ const breadcrumbJsonLd = {
   )}
 
   <script>
+    // Hidrata los placeholders <div class="mi-tabla" data-herramientas='[...]'> con el
+    // mismo markup/estilos que ComparisonTable.astro, ya que los .md no pueden invocar
+    // componentes .astro directamente.
+    document.querySelectorAll('.mi-tabla[data-herramientas]').forEach((el) => {
+      let herramientas = [];
+      try {
+        herramientas = JSON.parse(el.getAttribute('data-herramientas') ?? '[]');
+      } catch {
+        return;
+      }
+      if (!Array.isArray(herramientas) || herramientas.length === 0) return;
+
+      const rows = herramientas.map((h, i) => `
+        <tr class="${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}">
+          <td class="p-3 font-semibold"><a href="${h.url}" target="_blank" rel="noopener sponsored" class="text-blue-700 hover:underline">${h.nombre}</a></td>
+          <td class="p-3">${h.precio}</td>
+          <td class="p-3">${h.idioma}</td>
+          <td class="p-3">${h.prueba}</td>
+          <td class="p-3">${h.mejor_para}</td>
+        </tr>
+      `).join('');
+
+      el.className = 'overflow-x-auto my-8';
+      el.innerHTML = `
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="bg-blue-700 text-white">
+              <th class="p-3 text-left">Herramienta</th>
+              <th class="p-3 text-left">Precio base</th>
+              <th class="p-3 text-left">Español</th>
+              <th class="p-3 text-left">Prueba gratis</th>
+              <th class="p-3 text-left">Ideal para</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    });
+
     // Hidrata los placeholders <div class="mi-destacada" data-*> insertados en el
     // markdown de los artículos con el mismo markup/estilos que HerramientaDestacada.astro,
     // ya que los archivos .md no pueden invocar componentes .astro directamente.
@@ -187,7 +226,9 @@ const breadcrumbJsonLd = {
       `;
     });
 
-    const headings = document.querySelectorAll('article h2');
+    // .prose (no "article h2"): cada ArticleCard de "También te puede interesar" es
+    // en sí mismo un <article> con su propio h2, y ese selector los capturaba también.
+    const headings = document.querySelectorAll('.prose h2');
     if (headings.length > 2) {
       const toc = document.createElement('div');
       toc.className = 'toc my-6 p-4 bg-gray-50 rounded-xl border border-gray-200';
