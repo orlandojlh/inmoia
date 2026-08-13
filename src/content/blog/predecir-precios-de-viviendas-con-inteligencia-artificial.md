@@ -54,7 +54,7 @@ Para inmobiliarias que quieren construir su propio modelo interno, herramientas 
 
 Antes de configurar cualquier modelo predictivo, necesitas entender qué buscan los compradores en tu zona objetivo, qué keywords dominan los portales y cómo posicionar tus propiedades en función de esa demanda. Aquí es donde herramientas de análisis de contenido y SEO basadas en IA marcan la diferencia.
 
-[Frase](https://AFILIADO-PENDIENTE/frase) es una plataforma de SEO e inteligencia artificial que te permite identificar los términos exactos que usan los compradores cuando buscan propiedades en Google, analizar la intención detrás de cada búsqueda y estructurar tus fichas de propiedad para que aparezcan en los primeros resultados. Si publicas en portales o tienes sitio web propio, optimizar el contenido con datos reales de búsqueda es tan importante como acertar en el precio.
+[Frase](https://www.frase.io/?via=inmoia69) es una plataforma de SEO e inteligencia artificial que te permite identificar los términos exactos que usan los compradores cuando buscan propiedades en Google, analizar la intención detrás de cada búsqueda y estructurar tus fichas de propiedad para que aparezcan en los primeros resultados. Si publicas en portales o tienes sitio web propio, optimizar el contenido con datos reales de búsqueda es tan importante como acertar en el precio.
 
 ---
 

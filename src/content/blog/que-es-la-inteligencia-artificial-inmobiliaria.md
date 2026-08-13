@@ -43,7 +43,7 @@ El corredor que antes tardaba 30 minutos en redactar una ficha decente puede hac
 
 Si tu inmobiliaria tiene un sitio web o blog, la IA puede ayudarte a identificar qué temas buscan tus clientes potenciales y cómo estructurar el contenido para aparecer en Google.
 
-Plataformas como [Frase](https://AFILIADO-PENDIENTE/frase) analizan los resultados de búsqueda para una keyword específica, identifican las preguntas frecuentes de los usuarios y generan un esquema de contenido optimizado. Así no escribes por intuición: escribes lo que el mercado está buscando.
+Plataformas como [Frase](https://www.frase.io/?via=inmoia69) analizan los resultados de búsqueda para una keyword específica, identifican las preguntas frecuentes de los usuarios y generan un esquema de contenido optimizado. Así no escribes por intuición: escribes lo que el mercado está buscando.
 
 Un ejemplo concreto: si quieres posicionar tu inmobiliaria para "departamentos en arriendo en Providencia", Frase te muestra qué preguntas están haciendo los usuarios, qué subtemas cubren los sitios mejor posicionados y qué longitud de contenido es más efectiva. Eso elimina la prueba y error.
 
@@ -89,7 +89,7 @@ No necesitas ser técnico ni tener un presupuesto grande para empezar. Estos son
 
 1. **Identifica el cuello de botella más grande en tu operación.** ¿Tardas demasiado en redactar fichas? ¿No tienes tiempo de generar contenido para tu web? ¿Pierdes leads por no responder rápido? Elige un problema, no todos a la vez.
 
-2. **Prueba una herramienta específica para ese problema.** Si el problema es el contenido escrito, [Writesonic](https://AFILIADO-PENDIENTE/writesonic) es un punto de partida sólido para generar fichas, publicaciones y correos. Si quieres posicionarte mejor en Google, [Frase](https://AFILIADO-PENDIENTE/frase) te da una ventaja estratégica real.
+2. **Prueba una herramienta específica para ese problema.** Si el problema es el contenido escrito, [Writesonic](https://AFILIADO-PENDIENTE/writesonic) es un punto de partida sólido para generar fichas, publicaciones y correos. Si quieres posicionarte mejor en Google, [Frase](https://www.frase.io/?via=inmoia69) te da una ventaja estratégica real.
 
 3. **Define un flujo de revisión humana.** La IA genera borradores; tú los validas. Nunca publiques contenido generado por IA sin leerlo: puede tener errores factuales o un tono que no representa tu marca.
 

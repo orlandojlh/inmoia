@@ -20,7 +20,7 @@ La inteligencia artificial generativa dejó de ser un experimento para convertir
 
 ### Redacción de fichas y anuncios con IA
 
-Escribir una ficha de propiedad atractiva puede tomar entre 30 y 60 minutos si lo haces desde cero. Con herramientas especializadas ese tiempo baja a menos de 5 minutos, manteniendo precisión técnica y persuasión comercial. [Frase](https://AFILIADO-PENDIENTE/frase) es una plataforma de IA diseñada específicamente para generar contenido de marketing optimizado para SEO, útil tanto para descripciones de propiedades como para artículos de blog que posicionan tu sitio en Google.
+Escribir una ficha de propiedad atractiva puede tomar entre 30 y 60 minutos si lo haces desde cero. Con herramientas especializadas ese tiempo baja a menos de 5 minutos, manteniendo precisión técnica y persuasión comercial. [Frase](https://www.frase.io/?via=inmoia69) es una plataforma de IA diseñada específicamente para generar contenido de marketing optimizado para SEO, útil tanto para descripciones de propiedades como para artículos de blog que posicionan tu sitio en Google.
 
 Un corredor que gestiona 15 propiedades activas puede publicar fichas completas, emails de seguimiento y publicaciones para redes sociales en una fracción del tiempo anterior. Ese tiempo recuperado se reinvierte en visitas y negociaciones.
 
@@ -52,13 +52,13 @@ El ciclo de decisión de compra inmobiliaria en Latinoamérica puede durar entre
 
 Una secuencia de nurturing bien diseñada envía contenido de valor al lead cada semana o cada dos semanas: análisis de mercado, videos de propiedades similares, comparadores de crédito hipotecario. Cuando el prospecto está listo para comprar, tu marca está en su mente porque nunca desapareció.
 
-Para crear los correos de esa secuencia de forma rápida y con copy persuasivo, [Frase](https://AFILIADO-PENDIENTE/frase) permite generar emails completos adaptados a distintas etapas del funnel, desde el primer contacto hasta el cierre.
+Para crear los correos de esa secuencia de forma rápida y con copy persuasivo, [Frase](https://www.frase.io/?via=inmoia69) permite generar emails completos adaptados a distintas etapas del funnel, desde el primer contacto hasta el cierre.
 
 ### SEO local como canal de captación gratuito
 
 Las búsquedas con intención local —"arriendo departamento Providencia", "casa en venta Las Condes"— siguen creciendo. En 2026, posicionarse en esas búsquedas requiere contenido de calidad, consistencia y comprensión técnica de cómo funciona Google.
 
-Producir artículos, guías de barrio y comparadores de zonas de forma regular es una estrategia que genera tráfico orgánico sin pagar por cada clic. Aquí nuevamente [Frase](https://AFILIADO-PENDIENTE/frase) resulta útil: permite generar borradores de artículos optimizados para palabras clave específicas, que tú revisas y personalizas con tu conocimiento del mercado local.
+Producir artículos, guías de barrio y comparadores de zonas de forma regular es una estrategia que genera tráfico orgánico sin pagar por cada clic. Aquí nuevamente [Frase](https://www.frase.io/?via=inmoia69) resulta útil: permite generar borradores de artículos optimizados para palabras clave específicas, que tú revisas y personalizas con tu conocimiento del mercado local.
 
 ---
 
@@ -110,7 +110,7 @@ Proptech (property technology) es el conjunto de tecnologías digitales aplicada
 
 ### ¿Cuál es la tecnología proptech más importante para un corredor individual?
 
-Para un corredor independiente, la combinación más rentable es un CRM básico + automatización de marketing + herramienta de contenido con IA. Estas tres piezas juntas permiten gestionar más propiedades y más leads sin necesitar un equipo grande. Herramientas como [Frase](https://AFILIADO-PENDIENTE/frase) cubren la parte de producción de contenido —fichas, emails, publicaciones— de forma accesible para operaciones individuales.
+Para un corredor independiente, la combinación más rentable es un CRM básico + automatización de marketing + herramienta de contenido con IA. Estas tres piezas juntas permiten gestionar más propiedades y más leads sin necesitar un equipo grande. Herramientas como [Frase](https://www.frase.io/?via=inmoia69) cubren la parte de producción de contenido —fichas, emails, publicaciones— de forma accesible para operaciones individuales.
 
 ### ¿Las herramientas de IA reemplazan al corredor de propiedades?
 

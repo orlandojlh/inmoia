@@ -36,7 +36,7 @@ Para este trabajo, [Writesonic](https://AFILIADO-PENDIENTE/writesonic) es una de
 
 ### Contenido para redes sociales y blog
 
-Más allá de los anuncios de propiedades, un corredor necesita contenido educativo para atraer prospectos orgánicamente: guías sobre el proceso de compra, consejos para primera vivienda, análisis de barrios. [Frase](https://AFILIADO-PENDIENTE/frase) destaca aquí porque combina generación de contenido con investigación SEO: te dice qué preguntas hace la gente en Google sobre un barrio o tipo de propiedad, y luego te ayuda a escribir el artículo que responde esas preguntas. Resultado: tráfico orgánico constante sin pagar publicidad.
+Más allá de los anuncios de propiedades, un corredor necesita contenido educativo para atraer prospectos orgánicamente: guías sobre el proceso de compra, consejos para primera vivienda, análisis de barrios. [Frase](https://www.frase.io/?via=inmoia69) destaca aquí porque combina generación de contenido con investigación SEO: te dice qué preguntas hace la gente en Google sobre un barrio o tipo de propiedad, y luego te ayuda a escribir el artículo que responde esas preguntas. Resultado: tráfico orgánico constante sin pagar publicidad.
 
 ---
 
@@ -115,7 +115,7 @@ Cada herramienta que dominas se vuelve parte de tu sistema. En tres meses tienes
 
 ### ¿Qué herramienta de IA es mejor para escribir descripciones de propiedades en español?
 
-Para descripciones en español neutro o regional, [Writesonic](https://AFILIADO-PENDIENTE/writesonic) y [Jasper](https://AFILIADO-PENDIENTE/jasper) son las opciones más completas. Ambas generan textos naturales, permiten ajustar el tono y tienen soporte en español. Si además quieres posicionar contenido en Google, [Frase](https://AFILIADO-PENDIENTE/frase) añade la capa de investigación SEO que las otras no incluyen.
+Para descripciones en español neutro o regional, [Writesonic](https://AFILIADO-PENDIENTE/writesonic) y [Jasper](https://AFILIADO-PENDIENTE/jasper) son las opciones más completas. Ambas generan textos naturales, permiten ajustar el tono y tienen soporte en español. Si además quieres posicionar contenido en Google, [Frase](https://www.frase.io/?via=inmoia69) añade la capa de investigación SEO que las otras no incluyen.
 
 ### ¿La IA puede reemplazar a un corredor de propiedades?
 
@@ -127,4 +127,4 @@ Un stack básico (redacción con IA + mejora de fotos + chatbot simple) puede co
 
 ### ¿Necesito conocimientos técnicos para usar herramientas de IA?
 
-No. Herramientas como [Writesonic](https://AFILIADO-PENDIENTE/writesonic), [Jasper](https://AFILIADO-PENDIENTE/jasper) y [Frase](https://AFILIADO-PENDIENTE/frase) tienen interfaces simples: describes lo que necesitas en lenguaje natural y la herramienta genera el resultado. El aprendizaje real está en aprender a dar instrucciones claras (prompts), lo que se domina con una semana de práctica.
+No. Herramientas como [Writesonic](https://AFILIADO-PENDIENTE/writesonic), [Jasper](https://AFILIADO-PENDIENTE/jasper) y [Frase](https://www.frase.io/?via=inmoia69) tienen interfaces simples: describes lo que necesitas en lenguaje natural y la herramienta genera el resultado. El aprendizaje real está en aprender a dar instrucciones claras (prompts), lo que se domina con una semana de práctica.

@@ -66,7 +66,7 @@ Saber qué datos buscar es la mitad del trabajo. La otra mitad es saber dónde e
 
 **Herramientas de análisis de keywords y tendencias:**
 
-Si tu estrategia incluye identificar zonas emergentes antes que el mercado, monitorear qué busca la gente en Google es una señal poderosa. Una herramienta como [Frase](https://AFILIADO-PENDIENTE/frase) permite analizar el volumen de búsqueda de términos como "departamentos en arriendo en [barrio X]" o "comprar casa en [ciudad]", lo que te da una visión de demanda orgánica real antes de que los portales la registren. También es útil para corredores que quieren posicionar su inventario en buscadores con contenido optimizado.
+Si tu estrategia incluye identificar zonas emergentes antes que el mercado, monitorear qué busca la gente en Google es una señal poderosa. Una herramienta como [Frase](https://www.frase.io/?via=inmoia69) permite analizar el volumen de búsqueda de términos como "departamentos en arriendo en [barrio X]" o "comprar casa en [ciudad]", lo que te da una visión de demanda orgánica real antes de que los portales la registren. También es útil para corredores que quieren posicionar su inventario en buscadores con contenido optimizado.
 
 ---
 
@@ -128,7 +128,7 @@ El corredor que entiende análisis de datos no pierde relevancia frente a las pl
 
 Un corredor que llega a una reunión con un análisis de rentabilidad por barrio, un comparativo de velocidad de absorción y una proyección de flujo de caja a cinco años está en una posición radicalmente diferente a uno que solo muestra fotos y metros cuadrados.
 
-Para construir ese perfil, también importa cómo comunicas los datos. Las fichas técnicas optimizadas para buscadores, los informes de mercado descargables y el contenido educativo posicionado en Google son hoy parte del trabajo comercial. Herramientas como [Frase](https://AFILIADO-PENDIENTE/frase) permiten identificar exactamente qué preguntas se hace tu cliente potencial antes de contactar a un corredor, y construir contenido que responda esas preguntas y capture tráfico cualificado.
+Para construir ese perfil, también importa cómo comunicas los datos. Las fichas técnicas optimizadas para buscadores, los informes de mercado descargables y el contenido educativo posicionado en Google son hoy parte del trabajo comercial. Herramientas como [Frase](https://www.frase.io/?via=inmoia69) permiten identificar exactamente qué preguntas se hace tu cliente potencial antes de contactar a un corredor, y construir contenido que responda esas preguntas y capture tráfico cualificado.
 
 ---
 

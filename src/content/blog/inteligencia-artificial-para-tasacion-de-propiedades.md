@@ -66,7 +66,7 @@ Si trabajas con un cliente que te pregunta por qué dos departamentos de 80 m² 
 
 El mercado de herramientas para tasación con IA está creciendo, pero la elección correcta depende de tu mercado específico y del uso que le darás.
 
-**Para análisis de datos y redacción de informes**: una vez que tienes los datos de tasación, necesitas transformarlos en un informe claro y profesional. [Frase](https://AFILIADO-PENDIENTE/frase) es una herramienta de IA que te permite generar textos bien estructurados a partir de datos, lo que resulta útil para redactar el cuerpo de un informe de tasación, una ficha de propiedad con argumentos de valor o un email explicando el precio sugerido a un propietario reticente.
+**Para análisis de datos y redacción de informes**: una vez que tienes los datos de tasación, necesitas transformarlos en un informe claro y profesional. [Frase](https://www.frase.io/?via=inmoia69) es una herramienta de IA que te permite generar textos bien estructurados a partir de datos, lo que resulta útil para redactar el cuerpo de un informe de tasación, una ficha de propiedad con argumentos de valor o un email explicando el precio sugerido a un propietario reticente.
 
 **Para portales locales**: en Chile, algunos portales inmobiliarios están incorporando módulos de estimación de valor. Antes de pagar por una herramienta externa, verifica si tu portal de publicación ya incluye esta funcionalidad.
 
@@ -123,4 +123,4 @@ Los datos mínimos son: dirección exacta, superficie total y útil, número de 
 
 ### ¿Cuánto cuesta implementar IA para tasación en una inmobiliaria pequeña?
 
-El rango es muy amplio. Algunas herramientas ofrecen planes desde 30 a 100 USD mensuales para equipos pequeños, mientras que soluciones más robustas orientadas a instituciones financieras o grandes inmobiliarias pueden costar miles de dólares al mes. Para una inmobiliaria que recién comienza, combinar los módulos de estimación incluidos en portales locales con herramientas de análisis y redacción como [Frase](https://AFILIADO-PENDIENTE/frase) es una alternativa de bajo costo y alta productividad.
+El rango es muy amplio. Algunas herramientas ofrecen planes desde 30 a 100 USD mensuales para equipos pequeños, mientras que soluciones más robustas orientadas a instituciones financieras o grandes inmobiliarias pueden costar miles de dólares al mes. Para una inmobiliaria que recién comienza, combinar los módulos de estimación incluidos en portales locales con herramientas de análisis y redacción como [Frase](https://www.frase.io/?via=inmoia69) es una alternativa de bajo costo y alta productividad.

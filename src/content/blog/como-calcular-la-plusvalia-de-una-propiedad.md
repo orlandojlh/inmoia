@@ -105,7 +105,7 @@ Tener el número no es suficiente. Tu habilidad como corredor está en transform
 
 **Para un comprador o inversionista:** Presenta la tasa anual (CAGR) de la zona en los últimos 5 y 10 años, los proyectos de infraestructura comprometidos en el sector, y un rango de plusvalía proyectada conservador, moderado y optimista.
 
-**Para una inmobiliaria que publica proyectos nuevos:** El contenido escrito que acompaña cada ficha de propiedad debe explicar la plusvalía del sector con datos verificables, no con frases genéricas. Para optimizar ese contenido y asegurarte de que posiciona en Google con las palabras exactas que usa tu cliente potencial, una herramienta como [Frase](https://AFILIADO-PENDIENTE/frase) te permite identificar los términos de búsqueda reales y el nivel de competencia de cada uno, de modo que cada descripción de proyecto trabaje para ti las 24 horas.
+**Para una inmobiliaria que publica proyectos nuevos:** El contenido escrito que acompaña cada ficha de propiedad debe explicar la plusvalía del sector con datos verificables, no con frases genéricas. Para optimizar ese contenido y asegurarte de que posiciona en Google con las palabras exactas que usa tu cliente potencial, una herramienta como [Frase](https://www.frase.io/?via=inmoia69) te permite identificar los términos de búsqueda reales y el nivel de competencia de cada uno, de modo que cada descripción de proyecto trabaje para ti las 24 horas.
 
 ---
 
@@ -138,7 +138,7 @@ Para hacer un análisis de plusvalía riguroso, necesitas datos confiables. Esta
 - **Portal Inmobiliario y Toctoc:** Datos de oferta activa, tiempo en mercado y evolución de precios por zona.
 - **Cámara Chilena de la Construcción (CChC):** Reportes periódicos de mercado inmobiliario con estadísticas por tipología y región.
 
-Combinar estas fuentes con un análisis de contenido SEO usando [Frase](https://AFILIADO-PENDIENTE/frase) te permite, además, detectar qué zonas o tipologías de propiedades están siendo más buscadas en Google en tiempo real, lo que es información de demanda tan valiosa como cualquier estadística de cierre.
+Combinar estas fuentes con un análisis de contenido SEO usando [Frase](https://www.frase.io/?via=inmoia69) te permite, además, detectar qué zonas o tipologías de propiedades están siendo más buscadas en Google en tiempo real, lo que es información de demanda tan valiosa como cualquier estadística de cierre.
 
 ---
 

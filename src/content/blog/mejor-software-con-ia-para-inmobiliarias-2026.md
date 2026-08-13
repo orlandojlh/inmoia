@@ -40,7 +40,7 @@ Esta es la categoría con mayor impacto inmediato. Un buen anuncio en Portal Inm
 
 ### Frase
 
-[Frase](https://AFILIADO-PENDIENTE/frase) es especialmente útil si tu inmobiliaria tiene un sitio web propio y quieres posicionarte en Google. A diferencia de las otras herramientas, Frase analiza los primeros resultados de búsqueda para una keyword específica y te indica qué temas, preguntas y términos debe incluir tu artículo o página de servicio para competir. Si quieres posicionar una página como "departamentos en venta en Santiago centro", Frase te dice exactamente qué incluir y qué te falta frente a la competencia.
+[Frase](https://www.frase.io/?via=inmoia69) es especialmente útil si tu inmobiliaria tiene un sitio web propio y quieres posicionarte en Google. A diferencia de las otras herramientas, Frase analiza los primeros resultados de búsqueda para una keyword específica y te indica qué temas, preguntas y términos debe incluir tu artículo o página de servicio para competir. Si quieres posicionar una página como "departamentos en venta en Santiago centro", Frase te dice exactamente qué incluir y qué te falta frente a la competencia.
 
 ---
 
@@ -111,7 +111,7 @@ El error más común es suscribirse a cinco herramientas simultáneamente y no d
 
 ### ¿Cuál es el mejor software con IA para redactar anuncios inmobiliarios en español?
 
-Para redacción en español con terminología del mercado latinoamericano, [Jasper](https://AFILIADO-PENDIENTE/jasper) y [Writesonic](https://AFILIADO-PENDIENTE/writesonic) son las opciones más robustas en 2026. Jasper destaca por sus plantillas especializadas y control del tono; Writesonic por su precio y la integración de datos en tiempo real. Si además quieres posicionarte en Google con tu sitio web, [Frase](https://AFILIADO-PENDIENTE/frase) es complementario para la estrategia SEO.
+Para redacción en español con terminología del mercado latinoamericano, [Jasper](https://AFILIADO-PENDIENTE/jasper) y [Writesonic](https://AFILIADO-PENDIENTE/writesonic) son las opciones más robustas en 2026. Jasper destaca por sus plantillas especializadas y control del tono; Writesonic por su precio y la integración de datos en tiempo real. Si además quieres posicionarte en Google con tu sitio web, [Frase](https://www.frase.io/?via=inmoia69) es complementario para la estrategia SEO.
 
 ### ¿La IA puede reemplazar a un tasador profesional?
 

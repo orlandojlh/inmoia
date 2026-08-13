@@ -92,7 +92,7 @@ Un buen corredor de propiedades debe poder identificar estas señales antes de q
 
 En un mercado competitivo, la información es ventaja. Si publicas propiedades, redactas informes de inversión o posicionas tu cartera en buscadores, el uso de herramientas SEO puede marcar una diferencia concreta en cuántas personas llegan a tus listados.
 
-Para investigar qué términos buscan los inversionistas, analizar la intención de búsqueda detrás de consultas como "invertir en departamentos en Concepción" o "rentabilidad de propiedades en Antofagasta", y optimizar el contenido de tu sitio inmobiliario, [Frase](https://AFILIADO-PENDIENTE/frase) es una plataforma SEO completa que combina análisis de palabras clave, auditoría de contenido y monitoreo de posiciones. Su módulo de investigación de keywords es especialmente útil para identificar oportunidades de posicionamiento en nichos regionales donde la competencia es menor.
+Para investigar qué términos buscan los inversionistas, analizar la intención de búsqueda detrás de consultas como "invertir en departamentos en Concepción" o "rentabilidad de propiedades en Antofagasta", y optimizar el contenido de tu sitio inmobiliario, [Frase](https://www.frase.io/?via=inmoia69) es una plataforma SEO completa que combina análisis de palabras clave, auditoría de contenido y monitoreo de posiciones. Su módulo de investigación de keywords es especialmente útil para identificar oportunidades de posicionamiento en nichos regionales donde la competencia es menor.
 
 Si gestionas un portal inmobiliario o publicas contenido de forma regular, integrar una herramienta de este tipo en tu flujo de trabajo puede ayudarte a atraer clientes con intención de compra o inversión de forma orgánica, sin depender únicamente de la pauta pagada.
 

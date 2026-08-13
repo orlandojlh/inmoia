@@ -40,7 +40,7 @@ El error más frecuente en la captación de propiedades es fijar un precio de pu
 
 Antes de captar en una zona nueva o asesorar a un inversionista, necesitas entender la dinámica de ese mercado: ¿está absorbiendo unidades rápido o hay sobreoferta? ¿Los precios suben o se están ajustando a la baja? ¿Qué perfil de comprador predomina?
 
-Para este tipo de investigación, una herramienta como [Frase](https://AFILIADO-PENDIENTE/frase) es útil no solo para análisis SEO de contenido, sino para entender qué preguntas reales están haciendo los potenciales compradores e inversionistas en buscadores. Eso te da una radiografía de la demanda informacional: qué les preocupa, qué comparan, qué términos usan. Con esa información puedes estructurar mejor tu propuesta de valor y tu contenido de captación.
+Para este tipo de investigación, una herramienta como [Frase](https://www.frase.io/?via=inmoia69) es útil no solo para análisis SEO de contenido, sino para entender qué preguntas reales están haciendo los potenciales compradores e inversionistas en buscadores. Eso te da una radiografía de la demanda informacional: qué les preocupa, qué comparan, qué términos usan. Con esa información puedes estructurar mejor tu propuesta de valor y tu contenido de captación.
 
 ### Análisis de Portafolio para Inversionistas
 
@@ -69,7 +69,7 @@ Analizar el mercado es solo la mitad del trabajo. La otra mitad es comunicar eso
 Aquí la IA también juega un rol concreto:
 
 - **Redacción de informes de mercado:** herramientas de IA generativa pueden tomar tus datos crudos (precios, variaciones, volumen de transacciones) y convertirlos en textos explicativos listos para enviar a clientes inversionistas o publicar en redes sociales.
-- **Optimización de contenido SEO:** si tu inmobiliaria genera contenido para posicionarse en buscadores, una herramienta como [Frase](https://AFILIADO-PENDIENTE/frase) te permite identificar los temas y subtemas que deben estar presentes en cada artículo o página para competir con autoridad en Google. No es solo encontrar keywords; es entender la arquitectura semántica que los motores de búsqueda esperan ver.
+- **Optimización de contenido SEO:** si tu inmobiliaria genera contenido para posicionarse en buscadores, una herramienta como [Frase](https://www.frase.io/?via=inmoia69) te permite identificar los temas y subtemas que deben estar presentes en cada artículo o página para competir con autoridad en Google. No es solo encontrar keywords; es entender la arquitectura semántica que los motores de búsqueda esperan ver.
 - **Resúmenes ejecutivos automáticos:** algunos modelos de lenguaje pueden condensar reportes extensos de mercado en resúmenes de media página, útiles para enviar a clientes ocupados que no leerán 20 páginas de análisis.
 
 ---
@@ -109,7 +109,7 @@ No. La IA puede automatizar la recopilación y el procesamiento de datos, pero c
 
 ### ¿Qué herramientas de IA son útiles para una inmobiliaria pequeña o un corredor independiente?
 
-Depende del caso de uso. Para análisis de contenido y posicionamiento digital, [Frase](https://AFILIADO-PENDIENTE/frase) ofrece funcionalidades accesibles para equipos pequeños. Para tasación automatizada, existen plataformas especializadas que en Chile y Latam están comenzando a integrarse con datos de portales locales. Lo clave es empezar con una herramienta que resuelva un problema concreto, no adoptar tecnología por moda.
+Depende del caso de uso. Para análisis de contenido y posicionamiento digital, [Frase](https://www.frase.io/?via=inmoia69) ofrece funcionalidades accesibles para equipos pequeños. Para tasación automatizada, existen plataformas especializadas que en Chile y Latam están comenzando a integrarse con datos de portales locales. Lo clave es empezar con una herramienta que resuelva un problema concreto, no adoptar tecnología por moda.
 
 ### ¿Cuál es la diferencia entre un AVM y una tasación tradicional?
 
