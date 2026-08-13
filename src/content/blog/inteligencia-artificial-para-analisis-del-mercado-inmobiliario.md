@@ -18,6 +18,14 @@ Esta guía está dirigida a corredores de propiedades, ejecutivos de ventas y eq
 
 ## Qué Puede Hacer la IA en el Análisis de Mercado Inmobiliario
 
+<div class="mi-destacada" data-nombre="Frase"
+  data-descripcion="Crea contenido SEO basado en datos reales de búsqueda. Ideal para posicionar fichas y artículos inmobiliarios en Google."
+  data-url="https://www.frase.io/?utm_source=firstpromoter&utm_medium=affiliate&utm_campaign=affiliate_program&via=inmoia69"
+  data-cta="Probar Frase gratis"
+  data-precio="$14.99/mes"
+  data-badge="Recomendado por INMOIA">
+</div>
+
 La IA no reemplaza tu criterio como profesional. Lo potencia. Estas son las áreas donde su impacto es más tangible:
 
 - **Valoración automatizada de propiedades (AVM):** modelos que cruzan precio por metro cuadrado, plusvalía histórica, proximidad a servicios y datos de transacciones reales para estimar el valor de mercado de un inmueble en segundos.

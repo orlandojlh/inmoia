@@ -16,6 +16,14 @@ El mercado inmobiliario en Chile y Latinoamérica está adoptando inteligencia a
 
 ## Por Qué la IA Ya No Es Opcional en el Sector Inmobiliario
 
+<div class="mi-destacada" data-nombre="Frase"
+  data-descripcion="Crea contenido SEO basado en datos reales de búsqueda. Ideal para posicionar fichas y artículos inmobiliarios en Google."
+  data-url="https://www.frase.io/?utm_source=firstpromoter&utm_medium=affiliate&utm_campaign=affiliate_program&via=inmoia69"
+  data-cta="Probar Frase gratis"
+  data-precio="$14.99/mes"
+  data-badge="Recomendado por INMOIA">
+</div>
+
 La rotación de propiedades es alta, el tiempo por operación es limitado y la competencia en portales como Portal Inmobiliario o Yapo es feroz. La IA resuelve tres problemas reales:
 
 - **Velocidad**: redactar una ficha de propiedad de calidad toma 45 minutos de forma manual; con IA, menos de 5.

@@ -18,6 +18,14 @@ Esta guía reúne las categorías de IA más útiles para el trabajo diario de u
 
 ## Por qué los corredores de propiedades necesitan IA hoy
 
+<div class="mi-destacada" data-nombre="Frase"
+  data-descripcion="Crea contenido SEO basado en datos reales de búsqueda. Ideal para posicionar fichas y artículos inmobiliarios en Google."
+  data-url="https://www.frase.io/?utm_source=firstpromoter&utm_medium=affiliate&utm_campaign=affiliate_program&via=inmoia69"
+  data-cta="Probar Frase gratis"
+  data-precio="$14.99/mes"
+  data-badge="Recomendado por INMOIA">
+</div>
+
 Un corredor activo maneja simultáneamente captaciones, visitas, negociaciones y seguimiento de prospectos. El cuello de botella casi siempre está en las tareas administrativas y de marketing: escribir anuncios, responder consultas repetitivas, generar informes de mercado, publicar en redes sociales.
 
 La IA ataca exactamente ese cuello de botella. No reemplaza al corredor —el cliente sigue comprando a personas en quienes confía—, pero libera horas para que esa persona haga lo que ningún algoritmo puede: construir relaciones y cerrar tratos.

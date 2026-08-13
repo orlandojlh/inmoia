@@ -16,6 +16,14 @@ El precio de una propiedad nunca fue fácil de determinar. Depende de variables 
 
 ## Cómo la IA predice el precio de una vivienda
 
+<div class="mi-destacada" data-nombre="Frase"
+  data-descripcion="Crea contenido SEO basado en datos reales de búsqueda. Ideal para posicionar fichas y artículos inmobiliarios en Google."
+  data-url="https://www.frase.io/?utm_source=firstpromoter&utm_medium=affiliate&utm_campaign=affiliate_program&via=inmoia69"
+  data-cta="Probar Frase gratis"
+  data-precio="$14.99/mes"
+  data-badge="Recomendado por INMOIA">
+</div>
+
 Los modelos de predicción de precios inmobiliarios utilizan técnicas de **machine learning** entrenadas con grandes volúmenes de datos históricos de transacciones. El algoritmo aprende patrones: qué características de una propiedad correlacionan con precios más altos, cómo evoluciona el valor en determinadas comunas o barrios, qué factores externos aceleran o frenan la apreciación.
 
 Las variables más comunes que alimentan estos modelos incluyen:

@@ -18,6 +18,14 @@ Si eres corredor de propiedades, trabajes en una inmobiliaria o estás considera
 
 ## Qué Es la Plusvalía y Por Qué Importa en el Mercado Inmobiliario
 
+<div class="mi-destacada" data-nombre="Frase"
+  data-descripcion="Crea contenido SEO basado en datos reales de búsqueda. Ideal para posicionar fichas y artículos inmobiliarios en Google."
+  data-url="https://www.frase.io/?utm_source=firstpromoter&utm_medium=affiliate&utm_campaign=affiliate_program&via=inmoia69"
+  data-cta="Probar Frase gratis"
+  data-precio="$14.99/mes"
+  data-badge="Recomendado por INMOIA">
+</div>
+
 La plusvalía es la diferencia positiva entre el valor actual de un inmueble y su valor de adquisición en un momento anterior. En términos simples:
 
 **Plusvalía = Valor actual del inmueble − Valor de compra original**
