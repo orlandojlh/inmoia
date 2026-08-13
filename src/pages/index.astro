@@ -20,6 +20,19 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft))
     </p>
   </section>
 
+  <section class="mb-14 border border-blue-100 rounded-2xl p-6 sm:p-8 bg-blue-50">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div>
+        <h2 class="text-xl font-bold text-gray-900 mb-1">Herramientas de IA que usamos y recomendamos</h2>
+        <p class="text-sm text-gray-600">Fotos profesionales, redacción SEO y newsletters — probadas para el mercado inmobiliario chileno.</p>
+      </div>
+      <a href="/herramientas"
+         class="shrink-0 inline-block text-center bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl hover:bg-blue-800 transition-colors text-sm">
+        Ver todas las herramientas →
+      </a>
+    </div>
+  </section>
+
   {posts.length === 0 ? (
     <p class="text-gray-400">Los artículos aparecerán aquí pronto.</p>
   ) : (
