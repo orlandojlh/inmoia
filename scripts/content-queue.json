@@ -202,7 +202,7 @@
       "writesonic",
       "jasper"
     ],
-    "estado": "pendiente"
+    "estado": "publicada"
   },
   {
     "keyword": "cómo automatizar la publicación de propiedades en portales",
@@ -330,121 +330,163 @@
   {
     "keyword": "cómo crear un book fotográfico profesional de corredor con ia",
     "cluster": "A",
-    "afiliados": ["headshotpro"],
+    "afiliados": [
+      "headshotpro"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cuánto cuesta el home staging virtual en chile: guía de precios 2026",
     "cluster": "A",
-    "afiliados": ["virtualstagingai"],
+    "afiliados": [
+      "virtualstagingai"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "antes y después: casos reales de staging virtual con ia en chile",
     "cluster": "A",
-    "afiliados": ["virtualstagingai"],
+    "afiliados": [
+      "virtualstagingai"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cómo tomar fotos de propiedades con el celular y mejorarlas con ia",
     "cluster": "A",
-    "afiliados": ["virtualstagingai", "headshotpro"],
+    "afiliados": [
+      "virtualstagingai",
+      "headshotpro"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "guía para construir tu marca personal como corredor con ia",
     "cluster": "A",
-    "afiliados": ["headshotpro"],
+    "afiliados": [
+      "headshotpro"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cómo posicionar tu ficha de propiedad en google: seo inmobiliario",
     "cluster": "B",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "palabras clave que más buscan los compradores de propiedades en chile",
     "cluster": "B",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cómo escribir un blog inmobiliario que atraiga clientes",
     "cluster": "B",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "seo local para inmobiliarias: cómo aparecer primero en tu comuna",
     "cluster": "B",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cómo construir una lista de contactos inmobiliaria desde cero",
     "cluster": "C",
-    "afiliados": ["beehiiv"],
+    "afiliados": [
+      "beehiiv"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "email vs whatsapp: qué canal convierte más leads inmobiliarios",
     "cluster": "C",
-    "afiliados": ["beehiiv"],
+    "afiliados": [
+      "beehiiv"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cómo fidelizar clientes inmobiliarios con contenido recurrente",
     "cluster": "C",
-    "afiliados": ["beehiiv"],
+    "afiliados": [
+      "beehiiv"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "guía de arriendo de propiedades con ia para propietarios en chile",
     "cluster": "D",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cómo calcular el retorno de inversión de una propiedad con ia",
     "cluster": "D",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "errores comunes al usar ia en el sector inmobiliario",
     "cluster": "D",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "ia para tasación comercial vs residencial: diferencias clave",
     "cluster": "D",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cómo elegir entre staging físico y staging virtual con ia",
     "cluster": "A",
-    "afiliados": ["virtualstagingai"],
+    "afiliados": [
+      "virtualstagingai"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "checklist de marketing digital para corredores independientes 2026",
     "cluster": "B",
-    "afiliados": ["frase", "beehiiv"],
+    "afiliados": [
+      "frase",
+      "beehiiv"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "cómo usar ia para responder preguntas frecuentes de compradores",
     "cluster": "D",
-    "afiliados": ["frase"],
+    "afiliados": [
+      "frase"
+    ],
     "estado": "pendiente"
   },
   {
     "keyword": "guía de fotografía inmobiliaria con drone y edición con ia",
     "cluster": "A",
-    "afiliados": ["virtualstagingai"],
+    "afiliados": [
+      "virtualstagingai"
+    ],
     "estado": "pendiente"
   }
 ]
