@@ -162,6 +162,17 @@ const breadcrumbJsonLd = {
   )}
 
   <script>
+    import { track } from '@vercel/analytics';
+
+    function trackAfiliadoClick(el: Element, herramienta: string) {
+      el.addEventListener('click', () => {
+        track('afiliado_click', {
+          herramienta,
+          pagina: window.location.pathname,
+        });
+      });
+    }
+
     // Hidrata los placeholders <div class="mi-tabla" data-herramientas='[...]'> con el
     // mismo markup/estilos que ComparisonTable.astro, ya que los .md no pueden invocar
     // componentes .astro directamente.
@@ -199,6 +210,10 @@ const breadcrumbJsonLd = {
           <tbody>${rows}</tbody>
         </table>
       `;
+
+      el.querySelectorAll('a[href]').forEach((a, i) => {
+        trackAfiliadoClick(a, herramientas[i]?.nombre ?? '');
+      });
     });
 
     // Hidrata los placeholders <div class="mi-destacada" data-*> insertados en el
@@ -224,6 +239,9 @@ const breadcrumbJsonLd = {
           <a href="${url}" target="_blank" rel="noopener sponsored" class="inline-block bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl hover:bg-blue-800 transition-colors text-sm">${cta} →</a>
         </div>
       `;
+
+      const link = el.querySelector('a[href]');
+      if (link) trackAfiliadoClick(link, nombre);
     });
 
     // .prose (no "article h2"): cada ArticleCard de "También te puede interesar" es

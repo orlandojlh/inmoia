@@ -35,7 +35,8 @@ const description = 'Comparativa de las mejores herramientas de inteligencia art
         <p class="text-sm text-gray-600 mb-3 flex-1">{h.descripcion}</p>
         {h.precio && <p class="text-xs text-gray-400 mb-3">Desde {h.precio}</p>}
         <a href={h.url} target="_blank" rel="noopener sponsored"
-           class="inline-block text-center bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl hover:bg-blue-800 transition-colors text-sm">
+           class="inline-block text-center bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl hover:bg-blue-800 transition-colors text-sm js-afiliado-link"
+           data-herramienta={h.nombre}>
           {h.cta} →
         </a>
       </div>
@@ -63,3 +64,16 @@ const description = 'Comparativa de las mejores herramientas de inteligencia art
     Algunos enlaces son de afiliado. Si compras a través de ellos, recibimos una comisión sin costo adicional para ti.
   </p>
 </BaseLayout>
+
+<script>
+  import { track } from '@vercel/analytics';
+
+  document.querySelectorAll<HTMLAnchorElement>('.js-afiliado-link[data-herramienta]').forEach((el) => {
+    el.addEventListener('click', () => {
+      track('afiliado_click', {
+        herramienta: el.dataset.herramienta ?? '',
+        pagina: window.location.pathname,
+      });
+    });
+  });
+</script>

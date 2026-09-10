@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Analytics from '@vercel/analytics/astro';
 
 interface Props {
   title: string;
@@ -74,5 +75,7 @@ const ogImageURL = new URL(ogImage, Astro.site ?? Astro.url.origin).href;
         <p class="mt-1">Algunos enlaces son de afiliado. Si compras a través de ellos, recibimos una comisión sin costo adicional para ti.</p>
       </div>
     </footer>
+
+    <Analytics />
   </body>
 </html>

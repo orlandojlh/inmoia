@@ -30,7 +30,8 @@ if (items.length === 0 && data.frase && !esPendiente(data.frase)) {
           href={item.url}
           target="_blank"
           rel="noopener noreferrer sponsored"
-          class="block bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border border-gray-100 relative"
+          class="block bg-white rounded-xl p-4 shadow-sm hover:shadow-md transition-shadow border border-gray-100 relative js-afiliado-link"
+          data-herramienta={item.nombre}
         >
           {i === 0 && items.length > 1 && (
             <span class="absolute -top-2 -right-2 text-[10px] font-bold uppercase tracking-wide text-blue-700 bg-blue-100 px-2 py-0.5 rounded-full">
@@ -48,3 +49,16 @@ if (items.length === 0 && data.frase && !esPendiente(data.frase)) {
     </div>
   </div>
 )}
+
+<script>
+  import { track } from '@vercel/analytics';
+
+  document.querySelectorAll<HTMLAnchorElement>('.js-afiliado-link[data-herramienta]').forEach((el) => {
+    el.addEventListener('click', () => {
+      track('afiliado_click', {
+        herramienta: el.dataset.herramienta ?? '',
+        pagina: window.location.pathname,
+      });
+    });
+  });
+</script>
